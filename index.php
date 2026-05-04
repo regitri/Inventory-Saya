@@ -193,7 +193,7 @@
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
             <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
-            <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
+            <span class="d-none d-md-block dropdown-toggle ps-2">   </span>
           </a><!-- End Profile Iamge Icon -->
 
           <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
@@ -256,7 +256,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-item">
-        <a class="nav-link " href="index.html">
+        <a class="nav-link " href="index.php">
           <i class="bi bi-grid"></i>
           <span>Dashboard</span>
         </a>
@@ -269,28 +269,28 @@
 
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="users-profile.html">
+        <a class="nav-link collapsed" href="kategori_produk.php">
           <i class="bi bi-tags"></i>
           <span>Kategori Produk</span>
         </a>
       </li><!-- End Profile Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-faq.html">
+        <a class="nav-link collapsed" href="produk.php">
           <i class="bi bi-box"></i>
           <span>Data Produk</span>
         </a>
       </li><!-- End F.A.Q Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-contact.html">
+        <a class="nav-link collapsed" href="laporan.php">
           <i class="bi bi-bar-chart-line"></i>
           <span>Laporan</span>
         </a>
       </li><!-- End Contact Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="pages-register.html">
+        <a class="nav-link collapsed" href="users.php">
           <i class="bi bi-people"></i>
           <span>Manajemen User</span>
         </a>
@@ -307,7 +307,6 @@
       <h1>Dashboard</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
           <li class="breadcrumb-item active">Dashboard</li>
         </ol>
       </nav>
@@ -690,7 +689,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
-      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>Inventori Saya</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->

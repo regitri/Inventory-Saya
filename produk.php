@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Kategori Produk</title>
+  <title>Produk</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -263,14 +263,14 @@
       </li><!-- End Dashboard Nav -->
 
       <li class="nav-item">
-        <a class="nav-link" href="kategori_produk.php">
+        <a class="nav-link collapsed" href="kategori_produk.php">
           <i class="bi bi-tags"></i>
           <span>Kategori Produk</span>
         </a>
       </li><!-- End Profile Page Nav -->
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="produk.php">
+        <a class="nav-link " href="produk.php">
           <i class="bi bi-box"></i>
           <span>Data Produk</span>
         </a>
@@ -295,14 +295,16 @@
 
   </aside><!-- End Sidebar-->
 
+
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Kategori Produk</h1>
+      <h1>produk</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.php">dashboard</a></li>
-          <li class="breadcrumb-item active">Kategori Produk</li>
+
+          <li class="breadcrumb-item active">produk</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
