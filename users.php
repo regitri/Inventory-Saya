@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Users</title>
+  <title>Users - Inventori Saya</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -159,7 +159,7 @@
       <h1>users</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.php">dashboard</a></li>
+          <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
           <li class="breadcrumb-item active">users</li>
         </ol>
       </nav>
