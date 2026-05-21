@@ -19,26 +19,13 @@ function query($query)
 }
 
 // Ambil data barang masuk
-$data = query("
-    SELECT
-        sl.id,
-        p.product_code,
-        p.product_name,
-        c.category_name,
-        sl.qty,
-        sl.stock_before,
-        sl.stock_after,
-        sl.note,
-        sl.created_at,
-        u.name AS created_by
-    FROM stock_logs sl
-    JOIN products p ON sl.product_id = p.id
-    JOIN categories c ON p.category_id = c.id
-    JOIN users u ON sl.created_by = u.id
-    WHERE sl.change_type = 'ADD'
-    ORDER BY sl.created_at DESC
-");
-
+$data = query(" SELECT sl.id, p.product_code, p.product_name, c.category_name, sl.qty, sl.stock_before, sl.stock_after, sl.note, sl.created_at, u.name AS created_by
+                FROM stock_logs sl
+                JOIN products p ON sl.product_id = p.id
+                JOIN categories c ON p.category_id = c.id
+                JOIN users u ON sl.created_by = u.id
+                WHERE sl.change_type = 'ADD'
+                ORDER BY sl.created_at DESC");
 // Inisialisasi mPDF
 $mpdf = new \Mpdf\Mpdf([
     'format' => 'A4-L'

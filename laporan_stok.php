@@ -27,7 +27,7 @@ $data = query("
         c.category_name,
         p.stock,
         p.min_stock,
-        p.price,
+        p.price,    
         p.gambar,
         p.created_at
     FROM products p
