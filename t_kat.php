@@ -49,7 +49,7 @@ if (isset($_POST['simpan'])) {
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/akulogo.jpg" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -76,7 +76,7 @@ if (isset($_POST['simpan'])) {
 
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.php" class="logo d-flex align-items-center">
-        <img src="assets/img/logo.png" alt="">
+        <img src="assets/img/akulogo.jpg" alt="">
         <span class="d-none d-lg-block">Inventori Saya</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
