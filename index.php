@@ -453,7 +453,7 @@ function waktu_lalu($datetime)
                         <?php elseif ($row['stock'] <= ($row['min_stock'] / 2)): ?>
                           <span class="badge bg-warning">Hampir Habis</span>
                         <?php else: ?>
-                          <span class="badge bg-success">Menipis</span>
+                          <span class="badge bg-warning">Menipis</span>
                         <?php endif; ?>
                       </td>
                     </tr>
