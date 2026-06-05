@@ -152,8 +152,6 @@ if (!isset($_SESSION["login"])) {
           </div>
         </div>
 
-
-      
       </div>
     <section class="section">
       <div class="row">

@@ -49,12 +49,12 @@ if (isset($_POST['simpan'])) {
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Kategori Produk - Nama Sistem</title>
+    <title>Users - Inventori saya</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <<link href="assets/img/akulogo.jpg" rel="icon">
+    <link href="assets/img/akulogo.jpg" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -83,7 +83,7 @@ if (isset($_POST['simpan'])) {
         <div class="d-flex align-items-center justify-content-between">
             <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/akulogo.jpg" alt="">
-                <span class="d-none d-lg-block">Nama Sistem</span>
+                <span class="d-none d-lg-block">Inventori saya</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
         </div><!-- End Logo -->
@@ -169,7 +169,7 @@ if (isset($_POST['simpan'])) {
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1>Kategori Produk</h1>
+            <h1>Tambah User</h1>
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
@@ -184,6 +184,7 @@ if (isset($_POST['simpan'])) {
 
                     <div class="card">
                         <div class="card-body">
+
                             <h5 class="card-title">Tambah User</h5>
 
                             <form class="row g-3" method="post">
@@ -217,16 +218,15 @@ if (isset($_POST['simpan'])) {
                                 </div>
 
                                 <div class="text-center">
-                                    <button type="bitton" class="btn btn-warning"><a herf="users.php" style="color: black; text-decoration: none;">Kembali</a></button> 
+                                    <button type="button" class="btn btn-warning"><a href="users.php" style="color: black; text-decoration: none;">Kembali</a></button> 
                                     <button type="reset" class="btn btn-secondary">Reset</button>
                                     <button type="submit" class="btn btn-success" name="simpan">simpan</button>
-                                </div>
                                 </div>
                             </form><!-- Vertical Form -->
 
                         </div>
                     </div>
-                </div>
+                </div>  
             </div>
         </section>
 
