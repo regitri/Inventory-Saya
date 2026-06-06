@@ -44,7 +44,7 @@ if (isset($_POST['simpan'])) {
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Kategori Produk - Iventori Saya</title>
+  <title>Kategori Produk - Inventori Saya</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -122,7 +122,7 @@ if (isset($_POST['simpan'])) {
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="index.php">
-          <i class="bi bi-grid"></i>
+          <i class="bi bi-speedometer2"></i>
           <span>Dashboard</span>
         </a>
       </li><!-- End Dashboard Nav -->
@@ -167,7 +167,7 @@ if (isset($_POST['simpan'])) {
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-          <li class="breadcrumb-item">Kategori Produk</li>
+          <li class="breadcrumb-item"><a href="Kategori_Produk.php">Kategori Produk</a></li>
           <li class="breadcrumb-item active">Tambah</li>
         </ol>
       </nav>

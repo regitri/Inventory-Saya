@@ -49,7 +49,7 @@ if (isset($_POST['update'])) {
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Data Produk - Inventori Saya</title>
+    <title>Users - Inventori Saya</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -82,7 +82,7 @@ if (isset($_POST['update'])) {
 
         <div class="d-flex align-items-center justify-content-between">
             <a href="index.php" class="logo d-flex align-items-center">
-                <img src="assets/img/logo.png" alt="">
+                <img src="assets/img/akulogo.jpg" alt="">
                 <span class="d-none d-lg-block">Inventori Saya</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
@@ -128,7 +128,7 @@ if (isset($_POST['update'])) {
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="index.php">
-          <i class="bi bi-grid"></i>
+          <i class="bi bi-speedometer2"></i>
           <span>Dashboard</span>
         </a>
       </li><!-- End Dashboard Nav -->
@@ -164,16 +164,16 @@ if (isset($_POST['update'])) {
 
     </ul>
 
-  </aside><!-- End Sidebar-->   
+  </aside><!-- End Sidebar-->
 
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1>Data Produk</h1>
+            <h1>Manajemen User</h1>
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                    <li class="breadcrumb-item">Manajemen users</li>
+                    <li class="breadcrumb-item"><a href="users.php">Manajemen User</a></li>
                     <li class="breadcrumb-item active">Edit</li>
                 </ol>
             </nav>

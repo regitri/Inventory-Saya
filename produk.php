@@ -15,7 +15,7 @@ if (!isset($_SESSION["login"])) {
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Produk - Inventori Saya</title>
+  <title>Data Produk - Inventori Saya</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -136,12 +136,12 @@ if (!isset($_SESSION["login"])) {
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>produk</h1>
+      <h1>Data Produk</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
 
-          <li class="breadcrumb-item active">produk</li>
+          <li class="breadcrumb-item active">Data Produk</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->

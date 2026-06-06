@@ -73,9 +73,9 @@ if (isset($_POST['update'])) {
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Data Produk - Inventori Saya</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+  <title>Data Produk - Inventori Saya</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
     <!-- Favicons -->
     <link href="assets/img/akulogo.jpg" rel="icon">
@@ -106,8 +106,8 @@ if (isset($_POST['update'])) {
 
         <div class="d-flex align-items-center justify-content-between">
             <a href="index.php" class="logo d-flex align-items-center">
-                <img src="assets/img/logo.png" alt="">
-                <span class="d-none d-lg-block">Nama Sistem</span>
+                <img src="assets/img/akulogo.jpg" alt="">
+                <span class="d-none d-lg-block">Inventori Saya</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
         </div><!-- End Logo -->
@@ -145,48 +145,50 @@ if (isset($_POST['update'])) {
 
     </header><!-- End Header -->
 
-    <!-- ======= Sidebar ======= -->
-    <aside id="sidebar" class="sidebar">
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
 
-        <ul class="sidebar-nav" id="sidebar-nav">
+    <ul class="sidebar-nav" id="sidebar-nav">
 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="index.php">
-                    <i class="bi bi-grid"></i>
-                    <span>Dashboard</span>
-                </a>
-            </li><!-- End Dashboard Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.php">
+          <i class="bi bi-speedometer2"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="kategori_produk.php">
-                    <i class="bi bi-person"></i>
-                    <span>Kategori Produk</span>
-                </a>
-            </li><!-- End Profile Page Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="kategori_produk.php">
+          <i class="bi bi-tags"></i>
+          <span>Kategori Produk</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="produk.php">
-                    <i class="bi bi-question-circle"></i>
-                    <span>Data_Produk</span>
-                </a>
-            </li><!-- End F.A.Q Page Nav -->
+      <li class="nav-item">
+        <a class="nav-link " href="produk.php">
+          <i class="bi bi-box"></i>
+          <span>Data Produk</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="laporan.php">
-                    <i class="bi bi-envelope"></i>
-                    <span>Laporan</span>
-                </a>
-            </li><!-- End Contact Page Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="laporan.php">
+          <i class="bi bi-bar-chart-line"></i>
+          <span>Laporan</span>
+        </a>
+      </li><!-- End Contact Page Nav -->
 
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="users.php">
-                    <i class="bi bi-card-list"></i>
-                    <span>Manajemen User</span>
-                </a>
-            </li><!-- End Register Page Nav -->
-        </ul>
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="users.php">
+          <i class="bi bi-people"></i>
+          <span>Manajemen User</span>
+        </a>
+      </li><!-- End Register Page Nav -->
 
-    </aside><!-- End Sidebar-->
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
 
     <main id="main" class="main">
 
@@ -195,7 +197,7 @@ if (isset($_POST['update'])) {
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                    <li class="breadcrumb-item">Data Produk</li>
+                    <li class="breadcrumb-item"><a href="produk.php">Data Produk</a></li>
                     <li class="breadcrumb-item active">Edit</li>
                 </ol>
             </nav>

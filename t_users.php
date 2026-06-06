@@ -49,9 +49,9 @@ if (isset($_POST['simpan'])) {
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Users - Inventori saya</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+  <title>Users - Inventori Saya</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
     <!-- Favicons -->
     <link href="assets/img/akulogo.jpg" rel="icon">
@@ -83,7 +83,7 @@ if (isset($_POST['simpan'])) {
         <div class="d-flex align-items-center justify-content-between">
             <a href="index.php" class="logo d-flex align-items-center">
                 <img src="assets/img/akulogo.jpg" alt="">
-                <span class="d-none d-lg-block">Inventori saya</span>
+                <span class="d-none d-lg-block">Inventori Saya</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
         </div><!-- End Logo -->
@@ -128,7 +128,7 @@ if (isset($_POST['simpan'])) {
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="index.php">
-          <i class="bi bi-grid"></i>
+          <i class="bi bi-speedometer2"></i>
           <span>Dashboard</span>
         </a>
       </li><!-- End Dashboard Nav -->
@@ -169,11 +169,11 @@ if (isset($_POST['simpan'])) {
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1>Tambah User</h1>
+            <h1>Manajemen User</h1>
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
-                    <li class="breadcrumb-item">Manajemen User</li>
+                    <li class="breadcrumb-item"><a href="users.php">Manajemen User</a></li>
                     <li class="breadcrumb-item active">Tambah</li>
                 </ol>
             </nav>
